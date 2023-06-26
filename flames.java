@@ -4,10 +4,10 @@ public class flames {
         System.out.println("GAME OF FLAMES");
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter name of first person: ");
-        String name1=sc.nextLine();
+        String name1=sc.next();
         name1=name1.toLowerCase();
         System.out.println("Enter name of second person: ");
-        String name2=sc.nextLine();
+        String name2=sc.next();
         name2=name2.toLowerCase();
         String common="";
         for(int i=0;i<name1.length();i++){
